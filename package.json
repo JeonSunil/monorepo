@@ -1,0 +1,13 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JeonSunil/monorepo.git",
+  "author": "전선일 <jeonsunil1225@gamil.com>",
+  "license": "MIT",
+    "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
